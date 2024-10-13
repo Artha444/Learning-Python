@@ -8,4 +8,5 @@ r = int(input('Masukkan Jari-Jari :'))
 luas = 4/3 * (phi * r * r * r)
 volume = 4 * phi * r * r 
 
-print('Luas volume bola')
+print('Luas volume bola adalah :',luas)
+print('volume bola adalah :',volume)
