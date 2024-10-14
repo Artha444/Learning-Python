@@ -1,12 +1,15 @@
-print('='*10)
-print('BOLA')
-print('='*10)
+def bola():
+    print('='*10)
+    print(' BOLA')
+    print('='*10)
 
-phi = 22/7
-r = int(input('Masukkan Jari-Jari :'))
+    phi = 22/7
+    r = int(input('Masukkan Jari-Jari :'))
 
-luas = 4/3 * (phi * r * r * r)
-volume = 4 * phi * r * r 
+    volume = lambda r: 4/3 * (phi * r * r * r)
+    luas = lambda r: 4 * phi * r * r 
 
-print('Luas volume bola adalah :',luas)
-print('volume bola adalah :',volume)
+    print('Luas volume bola adalah :',luas(r))
+    print('volume bola adalah :',volume(r))
+
+bola()

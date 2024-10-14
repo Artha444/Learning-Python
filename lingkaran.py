@@ -1,9 +1,12 @@
-print('='*12)
-print(' LINGKARAN')
-print('='*12)
+def lingkaran():
+    print('='*12)
+    print(' LINGKARAN')
+    print('='*12)
 
-r = int(input('Masukkan Jari-Jari : '))
+    r = int(input('Masukkan Jari-Jari : '))
 
-luas = 22/7 * r * r
+    luas = lambda r: 22/7 * r * r
 
-print('Luas lingkaran : ',luas)
+    print('Luas lingkaran : ',luas(r))
+
+lingkaran()
