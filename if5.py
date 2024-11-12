@@ -1,4 +1,4 @@
-print(' Minimal membeli 10 barang')
+print(' Minimal pembelian 10 barang')
 i = int(input('Jumlah total barang : '))
 
 if i > 11:

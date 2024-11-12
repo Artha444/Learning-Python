@@ -1,3 +1,6 @@
+print('='*20)
+print('   TEBAK ANGKA')
+print('='*20)
 input = int(input('Tebak angka yang benar dari 1-10 :'))
 
 angka_benar = 7
