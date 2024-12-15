@@ -8,10 +8,13 @@ if op2 == '+':
 elif op2 == '-':
     hasil = op1 - op3
 
-elif op2 == '+':
+elif op2 == 'x':
     hasil = op1 * op3
+
 elif op2 == '/':
     hasil = op1 / op3
+
 else:
     print('Inputan error, mohon coba lagi')
-print(hasil)
+    
+print(f"{"="*20}\nHasilnya adalah : {hasil}")

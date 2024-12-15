@@ -11,4 +11,4 @@ elif x == 'b' or x == 'c' or x == 'd' or x == 'f' or x == 'g' or x == 'h' or x =
     print('Huruf konsonan')
 
 else:
-    print('Inputan salah, coba lagi.')
+    print(x,'Bukan huruf.')
